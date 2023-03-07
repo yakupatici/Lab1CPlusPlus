@@ -65,7 +65,8 @@ int main(){
     cout << "**************"<<endl ;
 
     // Question 4
-    cout<< "*\n**\n***\n**\n*";
+    string asterixPattern = "*\n**\n***\n**\n*";
+    cout << asterixPattern ;
 
     return 0;
 
