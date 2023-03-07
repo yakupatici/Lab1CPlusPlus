@@ -40,11 +40,11 @@ int main(){
     // Question 3
 
     cout << "Welcome to the grade calculation \n" ;
-    string namee;
+    string name2;
     int labGrade , midtermGrade , finalGrade;
     double lastScore;
     cout << "Enter your name : \n";
-    cin >> namee;
+    cin >> name2;
     cout << "Enter your lab grade : \n";
     cin >> labGrade;
 
@@ -56,7 +56,7 @@ int main(){
 
     lastScore = (labGrade * 0.25) + (midtermGrade * 0.35) + (finalGrade * 0.4);
 
-    cout << "Name : " << namee << endl;
+    cout << "Name : " << name2 << endl;
     cout << "Lab : " << labGrade << endl;
     cout << "Midterm : " << midtermGrade << endl;
     cout << "Final : " << finalGrade << endl;
